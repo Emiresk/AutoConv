@@ -11,6 +11,8 @@
 		B151BE15295DFB4B00D86F5B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B151BE14295DFB4B00D86F5B /* ContentView.swift */; };
 		B151BE17295DFB4E00D86F5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B151BE16295DFB4E00D86F5B /* Assets.xcassets */; };
 		B151BE1A295DFB4E00D86F5B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B151BE19295DFB4E00D86F5B /* Preview Assets.xcassets */; };
+		B15FC034296598AB006291B6 /* DistanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15FC033296598AB006291B6 /* DistanceView.swift */; };
+		B15FC03629659904006291B6 /* GasSpendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15FC03529659904006291B6 /* GasSpendView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		B151BE14295DFB4B00D86F5B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B151BE16295DFB4E00D86F5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B151BE19295DFB4E00D86F5B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B15FC033296598AB006291B6 /* DistanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceView.swift; sourceTree = "<group>"; };
+		B15FC03529659904006291B6 /* GasSpendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasSpendView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				B151BE14295DFB4B00D86F5B /* ContentView.swift */,
 				B151BE16295DFB4E00D86F5B /* Assets.xcassets */,
 				B151BE18295DFB4E00D86F5B /* Preview Content */,
+				B15FC033296598AB006291B6 /* DistanceView.swift */,
+				B15FC03529659904006291B6 /* GasSpendView.swift */,
 			);
 			path = AutoConv;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B151BE15295DFB4B00D86F5B /* ContentView.swift in Sources */,
+				B15FC03629659904006291B6 /* GasSpendView.swift in Sources */,
+				B15FC034296598AB006291B6 /* DistanceView.swift in Sources */,
 				B151BE13295DFB4B00D86F5B /* AutoConvApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +283,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +313,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
